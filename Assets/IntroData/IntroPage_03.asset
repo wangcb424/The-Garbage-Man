@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4f1f66b141fac4e8245f89bebac6c8, type: 3}
+  m_Name: IntroPage_03
+  m_EditorClassIdentifier: Assembly-CSharp::IntroPageData
+  pageTitle: The New Cities
+  pageBody: 'The rich moved far away from the Junkyards and built new cities behind
+    high walls.
+
+
+    The poor had no such choice. They lived near the ruins, close
+    enough to hear the machines still moving beneath the broken ground.'
+  backgroundImage: {fileID: 21300000, guid: cadbfd211d4333b409ad52d361ca3eca, type: 3}
+  storyImage: {fileID: 21300000, guid: 26dc5a2bd7c2cda4ea6e9683923f62ae, type: 3}

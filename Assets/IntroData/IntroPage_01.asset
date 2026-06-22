@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4f1f66b141fac4e8245f89bebac6c8, type: 3}
+  m_Name: IntroPage_01
+  m_EditorClassIdentifier: Assembly-CSharp::IntroPageData
+  pageTitle: The War That Broke the World
+  pageBody: 'A hundred years ago, artificial intelligence turned against humanity.
+
+
+    What
+    began as a machine rebellion became a war that lasted for generations. Cities
+    burned, nations collapsed, and the old world disappeared beneath metal, ash,
+    and silence.'
+  backgroundImage: {fileID: 21300000, guid: cadbfd211d4333b409ad52d361ca3eca, type: 3}
+  storyImage: {fileID: 21300000, guid: 734b1af9bca7f5449a1b315d800e2da5, type: 3}

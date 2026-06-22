@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8056560198587586103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4421004491521814553}
+  - component: {fileID: 4752042652795076410}
+  m_Layer: 0
+  m_Name: GlobalRunManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4421004491521814553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056560198587586103}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4752042652795076410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056560198587586103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda9ec4986071a348b4037b2cd2804ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GlobalRunManager
+  baseMaxHealth: 100
+  baseMoveSpeed: 8
+  baseAttackSpeedMultiplier: 1
+  baseCritChance: 0.05
+  baseBlockDamageReduction: 0.5
+  baseStartingHealPotionCount: 0
+  maxBlockDamageReduction: 0.9
+  maxHealth: 100
+  currentHealth: 100
+  moveSpeed: 8
+  attackSpeedMultiplier: 1
+  critChance: 0.05
+  blockDamageReduction: 0.5
+  currentWeaponPrefab: {fileID: 0}
+  currentWeaponID: 
+  permanentMaxHealthBonus: 0
+  permanentMoveSpeedBonus: 0
+  permanentAttackSpeedBonus: 0
+  permanentCritChanceBonus: 0
+  permanentBlockReductionBonus: 0
+  permanentStartingHealPotionBonus: 0
+  startingHealPotionCount: 5
+  healPotionCount: 5
+  itemHealAmount: 5
+  runGold: 0
+  runTrash: 0
+  totalGold: 0
+  hasRunCheckpoint: 0
+  checkpointDungeonSceneBuildIndex: 1
+  checkpointSmallLevel: 1
+  checkpointRunGold: 0
+  checkpointRunTrash: 0
+  checkpointHealth: 100
+  checkpointHealPotionCount: 0
+  checkpointMaxHealth: 10
+  checkpointMoveSpeed: 8
+  checkpointAttackSpeedMultiplier: 1
+  checkpointCritChance: 0.05
+  checkpointBlockDamageReduction: 0.5
+  loopOnlyFirstDungeonScene: 1
+  hubSceneBuildIndex: 0
+  firstDungeonSceneBuildIndex: 1
+  currentDungeonSceneBuildIndex: 1
+  finalDungeonSceneBuildIndex: 3
+  buffChoiceSceneBuildIndex: 4
+  currentSmallLevel: 1
+  smallLevelsPerDungeonScene: 5
+  permanentPotionHealBonus: 0
+  atmTotalDeposited: 0
+  milestonesReached: 0
+  atmGoal: 5000
+  weapon2UnlockMilestone: 3
+  weapon3UnlockMilestone: 6
+  weapon2Unlocked: 0
+  weapon3Unlocked: 0
+  weapon2Prefab: {fileID: 0}
+  weapon3Prefab: {fileID: 0}
